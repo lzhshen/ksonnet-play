@@ -7,6 +7,11 @@ environments:
     k8sVersion: v1.10.7
     path: default
 kind: ksonnet.io/app
+libraries:
+  incubator/redis:
+    name: redis
+    registry: incubator
+    version: 40285d8a14f1ac5787e405e1023cf0c07f6aa28c
 name: guestbook
 registries:
   incubator:
